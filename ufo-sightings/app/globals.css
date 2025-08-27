@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Global styles to set up the dark cosmic backdrop and glassy overlays.
+  These classes are referenced by layout components to ensure a cohesive visual identity.
+*/
+html,
+body {
+  @apply bg-background text-white min-h-screen;
+}
+
+/* Utility for glass effect cards */
+.glass {
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.05);
+}

@@ -1,0 +1,3 @@
+id,date,country,state,city,shape,duration,description,confidence,hasImage
+1,2025-01-01,US,CA,Los Angeles,Disc,30,"Bright disc hovering over downtown.",0.8,true
+2,2025-02-14,PT,,Lisbon,Triangle,120,"Three lights forming a triangle flying silently.",0.6,false
